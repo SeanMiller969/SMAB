@@ -1,4 +1,6 @@
 def find_case(case):
+    #hard coded values for cases eventually will be 
+    #done we web scraping
     SearchDict =  {"The Winter Offensive Collection": "1",
                    "The Phoenix Collection": "2",
                    "The Huntsman Collection": "3",

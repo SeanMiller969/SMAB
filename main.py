@@ -1,4 +1,7 @@
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
 from search_id import *
+from url_traversal import *
 
 def main():
     print("Welcome to SMAB")
@@ -9,7 +12,8 @@ def main():
     #tag_set_community_13 <-- this is that tag number
     #this will be hard coded and will be updated accordinginly
     url = find_case(case)
-    print(url)
+    JSON = get_json(url)
+    print(JSON)
 
 if __name__ == "__main__":
     main()
