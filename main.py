@@ -1,4 +1,3 @@
-import re
 from search_id import *
 
 def main():
