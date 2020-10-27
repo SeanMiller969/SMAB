@@ -7,4 +7,19 @@ def get_json(url):
     soup = BeautifulSoup(html, "html.parser")
     f = open("json.txt","w", encoding='utf-8')
     f.write(soup.text)
-    return "Good"
+    f.seek(0)
+    clean_json("json.txt")
+    return "Json Obtained"
+
+def clean_json(url):
+    print("Cleaning")
+    parsefile = open(url, "r", encoding= 'utf-8')
+    print(parsefile.read())
+    for aline in parsefile:
+        words = aline.split(' ')
+        newlist = []
+        for word in words:
+            word = word.strip()
+            newlist.append(word)
+        print(newlist)
+    parsefile.close()
