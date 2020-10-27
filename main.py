@@ -14,7 +14,6 @@ def main():
     url = find_case("The Gamma Collection")
     if(url == "ERROR"):
         printf("Case not found!")
-        return 1;
     JSON = get_json(url)
     print(JSON)
 

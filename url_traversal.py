@@ -12,14 +12,24 @@ def get_json(url):
     return "Json Obtained"
 
 def clean_json(url):
-    print("Cleaning")
-    parsefile = open(url, "r", encoding= 'utf-8')
-    print(parsefile.read())
-    for aline in parsefile:
-        words = aline.split(' ')
-        newlist = []
-        for word in words:
-            word = word.strip()
-            newlist.append(word)
-        print(newlist)
-    parsefile.close()
+    #print("Cleaning")
+    content = []
+    with open(url, "r", encoding= 'utf-8') as f:
+        for line in f:
+            if(line != "\n"):
+                content.append(line.strip())
+    ###
+    f.close()
+    #contentcopy = content
+    print(len(content))
+    for i in range(len(content)):
+        print(content[i])
+
+    #print(parsefile.read())
+    #for aline in parsefile:
+        #words = aline.split(' ')
+        #newlist = []
+        #for word in words:
+            #word = word.strip()
+            #newlist.append(word)
+        #print(newlist)
