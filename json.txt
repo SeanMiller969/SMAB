@@ -289,21 +289,21 @@ NAME
 
 
 
-140
+99
 
 
 
 
 					Starting at:
-$2.44
-$2.34
+$1.01
+$0.97
 
 
 
 
 
 
-StatTrak™ Five-SeveN | Violent Daimyo (Factory New)
+P90 | Chopper (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -316,21 +316,21 @@ Counter-Strike: Global Offensive
 
 
 
-50
+99
 
 
 
 
 					Starting at:
-$20.04
-$19.17
+$0.50
+$0.48
 
 
 
 
 
 
-StatTrak™ M4A4 | Desolate Space (Battle-Scarred)
+StatTrak™ Tec-9 | Ice Cap (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -343,115 +343,7 @@ Counter-Strike: Global Offensive
 
 
 
-91
-
-
-
-
-					Starting at:
-$4.39
-$4.20
-
-
-
-
-
-
-StatTrak™ P2000 | Imperial Dragon (Field-Tested)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-179
-
-
-
-
-					Starting at:
-$0.28
-$0.27
-
-
-
-
-
-
-PP-Bizon | Harvester (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-23
-
-
-
-
-					Starting at:
-$18.00
-$17.22
-
-
-
-
-
-
-StatTrak™ SCAR-20 | Bloodsport (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-26
-
-
-
-
-					Starting at:
-$18.45
-$17.65
-
-
-
-
-
-
-StatTrak™ P2000 | Imperial Dragon (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-96
+49
 
 
 
@@ -459,6 +351,141 @@ Counter-Strike: Global Offensive
 					Starting at:
 $1.17
 $1.12
+
+
+
+
+
+
+StatTrak™ Five-SeveN | Violent Daimyo (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+64
+
+
+
+
+					Starting at:
+$1.93
+$1.85
+
+
+
+
+
+
+Sawed-Off | Limelight (Factory New)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+84
+
+
+
+
+					Starting at:
+$0.31
+$0.30
+
+
+
+
+
+
+StatTrak™ Tec-9 | Ice Cap (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+65
+
+
+
+
+					Starting at:
+$0.94
+$0.90
+
+
+
+
+
+
+StatTrak™ SG 553 | Aerial (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+64
+
+
+
+
+					Starting at:
+$1.65
+$1.58
+
+
+
+
+
+
+StatTrak™ P90 | Chopper (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+113
+
+
+
+
+					Starting at:
+$1.01
+$0.97
 
 
 
@@ -478,21 +505,21 @@ Counter-Strike: Global Offensive
 
 
 
-31
+148
 
 
 
 
 					Starting at:
-$2.91
-$2.79
+$1.20
+$1.15
 
 
 
 
 
 
-StatTrak™ Sawed-Off | Limelight (Minimal Wear)
+StatTrak™ R8 Revolver | Reboot (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -505,48 +532,21 @@ Counter-Strike: Global Offensive
 
 
 
-21
+51
 
 
 
 
 					Starting at:
-$2.60
-$2.49
+$1.16
+$1.11
 
 
 
 
 
 
-StatTrak™ AUG | Aristocrat (Well-Worn)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-56
-
-
-
-
-					Starting at:
-$2.10
-$2.01
-
-
-
-
-
-
-Sawed-Off | Limelight (Factory New)
+StatTrak™ Sawed-Off | Limelight (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
