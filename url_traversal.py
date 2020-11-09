@@ -18,9 +18,9 @@ def clean_json(url):
         for line in f:
             if(line != "\n"):
                 content.append(line.strip())
-    ###
     f.close()
-    #contentcopy = content
+    parsedoutput = []
+    parserpart = []
     print(len(content))
     for i in range(len(content)):
         print(content[i])
@@ -34,18 +34,26 @@ def clean_json(url):
             print(splitseconditem)
             skin = splitseconditem[0].strip()
             condition = splitseconditem[1].replace(')', '')
-            print("Weapon is:", splititem)
+            print("Weapon is:", weapon)
             print("Skin is:", skin)
             print("Condition is:", condition)
             print("Buy price is:", price1)
             print("Sell price is:", price2)
+            parserpart.append(weapon)
+            parserpart.append(skin)
+            parserpart.append(condition)
+            parserpart.append(price1)
+            parserpart.append(price2)
+            print(parserpart)
+            parsedoutput.append(parserpart)
+            print(parsedoutput)
+            splititem.clear()
+            splitseconditem.clear()
 
-
-    #print(parsefile.read())
-    #for aline in parsefile:
-        #words = aline.split(' ')
-        #newlist = []
-        #for word in words:
-            #word = word.strip()
-            #newlist.append(word)
-        #print(newlist)
+    print(parsedoutput)
+    for i in parsedoutput:
+        print("Weapon is:", i[0])
+        print("Skin is:", i[1])
+        print("Condition is:", i[2])
+        print("Buy price is:", i[3])
+        print("Sell price is:", i[4])

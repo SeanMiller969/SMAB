@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from search_id import *
 from url_traversal import get_json
+from Weapon import *
 
 def main():
     print("Welcome to SMAB")
@@ -16,10 +17,12 @@ def main():
         print("Case not found!")
     #going through all the links should pass back a list of skin objects
     #eventually we will intialize the list of case objects.
+    JSON = []
     for i in range(1, 18):
-        JSON = get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:])
+        JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         i += 1
-    #print(JSON)
+    #Pipe out to a csv
+    
 
 if __name__ == "__main__":
     main()
