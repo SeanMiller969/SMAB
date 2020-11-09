@@ -16,6 +16,8 @@
 #Red- 0.64%
 #Yellow- 0.26%
 
+#knife-rarity(Global?)
+
 
 class Case:
 
@@ -23,9 +25,18 @@ class Case:
 		self.name = ""
 		self.weapons = []
 		self.estimated_value = 0
+		self.knife_value = 0
+
+	def __init__(self, name, weapons, estimated_value, knife_value):
+		self.name = name
+		self.weapons= weapons
+		self.estimated_value = estimated_value
+		self.knife_value = knife_value
 
 	def setValue(self):
 		temp = 0
 		for w in weapons:
 			temp += w.rarity * w.estimated_value
+		temp += knife_value * knife_rarity
+
 		self.estimated_value = temp
