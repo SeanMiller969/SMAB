@@ -14,18 +14,16 @@ class Weapon:
 	#Minimal Wear— 24.68%
 	#Factory New— 14.71%
 
-	quality_value_list = [.0792, .0993, .4318, .2468, .1471]
+#	def __init__(self):
+#		self.name = ""
+#		self.skin = ""
+#		self.stattrack = False
+#		self.rarity = 0
+#		self.buy_price = []			
+#		self.sell_price = []
+#		self.estimted_value = 0
 
-	def __init__(self):
-		self.name = ""
-		self.skin = ""
-		self.stattrack = False
-		self.rarity = 0
-		self.buy_price = []			#array of prices at different wear/tear
-		self.sell_price = []
-		self.estimted_value = 0
-
-	def __init__(self, name, skin, stattrack, rarity, buy_price, sell_price):
+	def __init__(self, name = "", skin = "", stattrack = False, rarity = 0, buy_price = [], sell_price = []):
 		self.name = name
 		self.skin = skin
 		self.stattrack = stattrack
@@ -34,12 +32,13 @@ class Weapon:
 		self.sell_price = sell_price
 		#summation of price at a certain quality * the percent chance of that quality (Expected Value)
 		temp = 0
+		quality_value_list = [.0792, .0993, .4318, .2468, .1471]
 		for i in range(5):
 			temp += sell_price[i] * quality_value_list[i]
 		self.estimted_value = temp
 
 	def stat_track(self, stattrack):
-		if(x):
+		if(stattrack):
 			self.stattrack = True
 		else:
 			self.stattrack = False
