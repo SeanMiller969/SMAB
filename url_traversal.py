@@ -24,6 +24,22 @@ def clean_json(url):
     print(len(content))
     for i in range(len(content)):
         print(content[i])
+        if(content[i] == "Starting at:"):
+            price1 = content[i + 1]
+            price2 = content[i + 2]
+            fullitem = content[i+3]
+            splititem = fullitem.split("|")
+            weapon = splititem[0]
+            splitseconditem = splititem[1].split("(")
+            print(splitseconditem)
+            skin = splitseconditem[0].strip()
+            condition = splitseconditem[1].replace(')', '')
+            print("Weapon is:", splititem)
+            print("Skin is:", skin)
+            print("Condition is:", condition)
+            print("Buy price is:", price1)
+            print("Sell price is:", price2)
+
 
     #print(parsefile.read())
     #for aline in parsefile:
