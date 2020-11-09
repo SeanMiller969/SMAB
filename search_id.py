@@ -27,6 +27,6 @@ def find_case(case):
                    "The Prisma 2 Collection": "25",
                    "The Fracture Collection": "26" }
     if case in SearchDict:  
-        return "https://steamcommunity.com/market/search?q=&category_730_ItemSet%5B%5D=tag_set_community_" + SearchDict[case] + "&category_730_ProPlayer%5B%5D=any&category_730_StickerCapsule%5B%5D=any&category_730_TournamentTeam%5B%5D=any&category_730_Weapon%5B%5D=any&appid=730"
+        return "https://steamcommunity.com/market/search?q=&category_730_ItemSet%5B%5D=tag_set_community_" + SearchDict[case] + "&category_730_ProPlayer%5B%5D=any&category_730_StickerCapsule%5B%5D=any&category_730_TournamentTeam%5B%5D=any&category_730_Weapon%5B%5D=any&appid=730#p1_price_asc"
     else:   
         return "ERROR"
