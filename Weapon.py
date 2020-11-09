@@ -21,7 +21,7 @@ class Weapon:
 		self.skin = ""
 		self.stattrack = False
 		self.rarity = 0
-		self.buy_price = []
+		self.buy_price = []			#array of prices at different wear/tear
 		self.sell_price = []
 		self.estimted_value = 0
 
