@@ -3,45 +3,43 @@
 class Weapon:
 	#need at least the weapon name to initialize the object
 	#FOR QUALITY
-	#5 is battle scarred
-	#4 is well worn
-	#3 is field tested
-	#2 is minimal wear
-	#1 is factory new
-	#Well-Worn— 7.92%
+	#4 is battle scarred
+	#3 is well worn
+	#2 is field tested
+	#1 is minimal wear
+	#0 is factory new
+	
 	#Battle-Scarred— 9.93%
+	#Well-Worn— 7.92%
 	#Field-Tested— 43.18%
 	#Minimal Wear— 24.68%
 	#Factory New— 14.71%
 
-#	def __init__(self):
-#		self.name = ""
-#		self.skin = ""
-#		self.stattrack = False
-#		self.rarity = 0
-#		self.buy_price = []			
-#		self.sell_price = []
-#		self.estimted_value = 0
-
-	def __init__(self, name = "", skin = "", stattrack = False, rarity = 0, buy_price = [], sell_price = []):
-		self.name = name
+	def __init__(self, name_of_weapon = "", skin = "", stattrack = False, condition = -1, buy_price = 0, sell_price = 0):
+		self.name_of_weapon = name_of_weapon
 		self.skin = skin
 		self.stattrack = stattrack
-		self.rarity = rarity
+		self.condition = condition 
 		self.buy_price = buy_price
 		self.sell_price = sell_price
 		#summation of price at a certain quality * the percent chance of that quality (Expected Value)
-		temp = 0
-		quality_value_list = [.0792, .0993, .4318, .2468, .1471]
-		for i in range(5):
-			temp += sell_price[i] * quality_value_list[i]
-		self.estimted_value = temp
+		#temp = 0
+		quality_value_list = [.1471, .2468, .4118, .0792, .0993]
+		#for i in range(5):
+		#	temp += sell_price[i] * quality_value_list[i]
+		self.estimated_value = sell_price * quality_value_list[condition]
 
+	#changes the odds of getting the weapon.
 	def stat_track(self, stattrack):
 		if(stattrack):
 			self.stattrack = True
 		else:
 			self.stattrack = False
 
+	#Example:
+	#This will be updated with how we want the data.
+	#"Name","skin","condition","buy_prive","sell_price", "estimated_value"
+	def CSVstructure(self):
+		return [self.name_of_weapon,self.skin,self.condition,self.buy_price,self.sell_price,self.estimated_value]
 
 

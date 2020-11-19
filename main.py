@@ -18,7 +18,7 @@ def main():
     #going through all the links should pass back a list of skin objects
     #eventually we will intialize the list of case objects.
     JSON = []
-    for i in range(1, 18):
+    for i in range(1):
         JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         i += 1
     #Pipe out to a csv
