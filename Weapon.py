@@ -20,14 +20,14 @@ class Weapon:
 		self.skin = skin
 		self.stattrack = stattrack
 		self.condition = condition 
-		self.buy_price = buy_price
-		self.sell_price = sell_price
+		self.buy_price = float(buy_price)
+		self.sell_price = float(sell_price)
 		#summation of price at a certain quality * the percent chance of that quality (Expected Value)
 		#temp = 0
 		quality_value_list = [.1471, .2468, .4118, .0792, .0993]
 		#for i in range(5):
 		#	temp += sell_price[i] * quality_value_list[i]
-		self.estimated_value = sell_price * quality_value_list[condition]
+		self.estimated_value = float(sell_price) * quality_value_list[condition]
 
 	#changes the odds of getting the weapon.
 	def stat_track(self, stattrack):

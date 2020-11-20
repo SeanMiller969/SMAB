@@ -22,7 +22,9 @@ def main():
         JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         i += 1
     #Pipe out to a csv
-    
+    for j in JSON:
+        for i in j:
+            print(i.name_of_weapon, i.skin, i.stattrack, i.condition, i.sell_price, i.buy_price)
 
 if __name__ == "__main__":
     main()

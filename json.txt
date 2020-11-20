@@ -289,21 +289,21 @@ NAME
 
 
 
-159
+879
 
 
 
 
 					Starting at:
-$0.86
-$0.83
+$0.63
+$0.61
 
 
 
 
 
 
-StatTrak™ Nova | Exo (Factory New)
+P90 | Chopper (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -316,21 +316,21 @@ Counter-Strike: Global Offensive
 
 
 
-159
+395
 
 
 
 
 					Starting at:
-$0.31
-$0.30
+$0.23
+$0.22
 
 
 
 
 
 
-PP-Bizon | Harvester (Factory New)
+Nova | Exo (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -343,21 +343,21 @@ Counter-Strike: Global Offensive
 
 
 
-125
+444
 
 
 
 
 					Starting at:
-$2.03
-$1.95
+$0.12
+$0.11
 
 
 
 
 
 
-P90 | Chopper (Factory New)
+PP-Bizon | Harvester (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -370,21 +370,21 @@ Counter-Strike: Global Offensive
 
 
 
-110
+489
 
 
 
 
 					Starting at:
-$5.80
-$5.55
+$0.55
+$0.53
 
 
 
 
 
 
-P2000 | Imperial Dragon (Factory New)
+AUG | Aristocrat (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -397,88 +397,7 @@ Counter-Strike: Global Offensive
 
 
 
-95
-
-
-
-
-					Starting at:
-$0.95
-$0.91
-
-
-
-
-
-
-P90 | Chopper (Well-Worn)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-152
-
-
-
-
-					Starting at:
-$1.81
-$1.74
-
-
-
-
-
-
-StatTrak™ P90 | Chopper (Field-Tested)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-174
-
-
-
-
-					Starting at:
-$0.16
-$0.15
-
-
-
-
-
-
-Tec-9 | Ice Cap (Battle-Scarred)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-112
+1,727
 
 
 
@@ -492,7 +411,7 @@ $0.19
 
 
 
-Nova | Exo (Well-Worn)
+SG 553 | Aerial (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -505,21 +424,21 @@ Counter-Strike: Global Offensive
 
 
 
-169
+77
 
 
 
 
 					Starting at:
-$1.63
-$1.56
+$0.24
+$0.23
 
 
 
 
 
 
-StatTrak™ AUG | Aristocrat (Field-Tested)
+StatTrak™ PP-Bizon | Harvester (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -532,21 +451,102 @@ Counter-Strike: Global Offensive
 
 
 
-167
+1,213
 
 
 
 
 					Starting at:
-$5.40
-$5.17
+$0.13
+$0.12
 
 
 
 
 
 
-SCAR-20 | Bloodsport (Factory New)
+P250 | Iron Clad (Field-Tested)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+91
+
+
+
+
+					Starting at:
+$0.87
+$0.84
+
+
+
+
+
+
+StatTrak™ SG 553 | Aerial (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+780
+
+
+
+
+					Starting at:
+$0.12
+$0.11
+
+
+
+
+
+
+MAC-10 | Carnivore (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+235
+
+
+
+
+					Starting at:
+$0.43
+$0.42
+
+
+
+
+
+
+StatTrak™ P250 | Iron Clad (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -667,6 +667,9 @@ Bloody Glimpse
 
 
 Bloody Walls
+
+
+Boreal Blade
 
 
 Brawl of Ages
@@ -793,9 +796,6 @@ HUNGER
 
 
 Half-Life: C.A.G.E.D.
-
-
-Hanako: Honor & Blade Early Access
 
 
 Heliborne - Enhanced Edition
@@ -1011,7 +1011,7 @@ Warframe
 West of Red
 
 
-Wolflord BETA
+Wolflord - Werewolf Online
 
 
 World of Warships
