@@ -40,6 +40,6 @@ class Weapon:
 	#This will be updated with how we want the data.
 	#"Name","skin","condition","buy_prive","sell_price", "estimated_value"
 	def CSVstructure(self):
-		return [self.name_of_weapon,self.skin,self.condition,self.buy_price,self.sell_price,self.estimated_value]
+		return [self.name_of_weapon,self.skin,self.condition,self.stattrack, self.buy_price,self.sell_price, round(self.estimated_value, 2)]
 
 

@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from search_id import *
 from url_traversal import get_json
+import csv
 from Weapon import *
 
 def main():
@@ -22,9 +23,13 @@ def main():
         JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         i += 1
     #Pipe out to a csv
-    for j in JSON:
-        for i in j:
-            print(i.name_of_weapon, i.skin, i.stattrack, i.condition, i.sell_price, i.buy_price)
+    with open('EV.csv', 'wt') as f:
+        csv_writer = csv.writer(f, quoting=csv.QUOTE_ALL)
+
+        csv_writer.writerow(["Name","skin","condition","buy_prive","sell_price", "estimated_value"])
+        for j in JSON:
+            for i in j:
+                csv_writer.writerow(i.CSVstructure())
 
 if __name__ == "__main__":
     main()
