@@ -21,22 +21,35 @@
 
 class Case:
 
-	def __init__(self):
+	'''def __init__(self):
 		self.name = ""
 		self.weapons = []
 		self.estimated_value = 0
 		self.knife_value = 0
+		'''
 
-	def __init__(self, name, weapons, estimated_value, knife_value):
+	def __init__(self, name="", weapons=[], estimated_value=0, knife_value=0):
 		self.name = name
-		self.weapons= weapons
+		self.weapons = weapons
 		self.estimated_value = estimated_value
 		self.knife_value = knife_value
 
 	def setValue(self):
 		temp = 0
-		for w in weapons:
+		for w in self.weapons:
 			temp += w.rarity * w.estimated_value
-		temp += knife_value * knife_rarity
+		temp += self.knife_value * .0025
 
 		self.estimated_value = temp
+
+	def printCase(self):
+		print("Name:", self.name,
+			"\nWeapons:", self.weapons,
+			"\nEstimated Value:", self.estimated_value,
+			"\nKnife Value:", self.knife_value)
+
+x = Case()
+x.setValue()
+x.printCase()
+
+
