@@ -3,6 +3,7 @@ from urllib.request import urlopen
 from search_id import *
 from url_traversal import get_json
 import csv
+import time
 from Weapon import *
 
 def main():
@@ -16,20 +17,27 @@ def main():
     url = find_case("The Gamma Collection")
     if(url == "ERROR"):
         print("Case not found!")
+    print(url)
     #going through all the links should pass back a list of skin objects
     #eventually we will intialize the list of case objects.
     JSON = []
-    for i in range(1):
+    NumberOfPages = 7
+    for i in range(NumberOfPages):
         JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
+        time.sleep(3)
         i += 1
     #Pipe out to a csv
+    f = open("EV.csv", "w+")
+    f.close()
+    print(len(JSON))
     with open('EV.csv', 'wt') as f:
         csv_writer = csv.writer(f, quoting=csv.QUOTE_ALL)
 
-        csv_writer.writerow(["Name","skin","condition","buy_prive","sell_price", "estimated_value"])
+        csv_writer.writerow(["Gun","skin","condition","stat_track","buy_price","sell_price", "estimated_value"])
         for j in JSON:
             for i in j:
                 csv_writer.writerow(i.CSVstructure())
+        csv_writer.writerow(["=Sum(F3:F" + str((NumberOfPages * 2 * 10) + 1) + ")"])
 
 if __name__ == "__main__":
     main()
