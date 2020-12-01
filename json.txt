@@ -289,21 +289,21 @@ NAME
 
 
 
-140
+509
 
 
 
 
 					Starting at:
-$2.44
-$2.34
+$0.21
+$0.20
 
 
 
 
 
 
-StatTrak™ Five-SeveN | Violent Daimyo (Factory New)
+Nova | Exo (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -316,21 +316,21 @@ Counter-Strike: Global Offensive
 
 
 
-50
+433
 
 
 
 
 					Starting at:
-$20.04
-$19.17
+$0.10
+$0.09
 
 
 
 
 
 
-StatTrak™ M4A4 | Desolate Space (Battle-Scarred)
+PP-Bizon | Harvester (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -343,21 +343,21 @@ Counter-Strike: Global Offensive
 
 
 
-91
+563
 
 
 
 
 					Starting at:
-$4.39
-$4.20
+$0.54
+$0.52
 
 
 
 
 
 
-StatTrak™ P2000 | Imperial Dragon (Field-Tested)
+AUG | Aristocrat (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -370,21 +370,21 @@ Counter-Strike: Global Offensive
 
 
 
-179
+1,948
 
 
 
 
 					Starting at:
-$0.28
-$0.27
+$0.17
+$0.16
 
 
 
 
 
 
-PP-Bizon | Harvester (Factory New)
+SG 553 | Aerial (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -397,21 +397,21 @@ Counter-Strike: Global Offensive
 
 
 
-23
+98
 
 
 
 
 					Starting at:
-$18.00
-$17.22
+$0.21
+$0.20
 
 
 
 
 
 
-StatTrak™ SCAR-20 | Bloodsport (Factory New)
+StatTrak™ PP-Bizon | Harvester (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -424,21 +424,21 @@ Counter-Strike: Global Offensive
 
 
 
-26
+1,654
 
 
 
 
 					Starting at:
-$18.45
-$17.65
+$0.10
+$0.09
 
 
 
 
 
 
-StatTrak™ P2000 | Imperial Dragon (Factory New)
+P250 | Iron Clad (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -451,21 +451,21 @@ Counter-Strike: Global Offensive
 
 
 
-96
+861
 
 
 
 
 					Starting at:
-$1.17
-$1.12
+$0.10
+$0.09
 
 
 
 
 
 
-StatTrak™ R8 Revolver | Reboot (Battle-Scarred)
+MAC-10 | Carnivore (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -478,21 +478,21 @@ Counter-Strike: Global Offensive
 
 
 
-31
+231
 
 
 
 
 					Starting at:
-$2.91
-$2.79
+$0.46
+$0.44
 
 
 
 
 
 
-StatTrak™ Sawed-Off | Limelight (Minimal Wear)
+StatTrak™ P250 | Iron Clad (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -505,21 +505,21 @@ Counter-Strike: Global Offensive
 
 
 
-21
+1,011
 
 
 
 
 					Starting at:
-$2.60
-$2.49
+$0.14
+$0.13
 
 
 
 
 
 
-StatTrak™ AUG | Aristocrat (Well-Worn)
+SG 553 | Aerial (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -532,21 +532,21 @@ Counter-Strike: Global Offensive
 
 
 
-56
+1,780
 
 
 
 
 					Starting at:
-$2.10
-$2.01
+$1.40
+$1.34
 
 
 
 
 
 
-Sawed-Off | Limelight (Factory New)
+AWP | Phobos (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -667,6 +667,9 @@ Bloody Glimpse
 
 
 Bloody Walls
+
+
+Boreal Blade
 
 
 Brawl of Ages
@@ -795,9 +798,6 @@ HUNGER
 Half-Life: C.A.G.E.D.
 
 
-Hanako: Honor & Blade Early Access
-
-
 Heliborne - Enhanced Edition
 
 
@@ -814,9 +814,6 @@ Holopoint
 
 
 I was rebuilt
-
-
-INTERSHELTER
 
 
 Immune
@@ -1014,7 +1011,7 @@ Warframe
 West of Red
 
 
-Wolflord BETA
+Wolflord - Werewolf Online
 
 
 World of Warships

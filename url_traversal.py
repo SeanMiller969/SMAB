@@ -65,7 +65,7 @@ def clean_json(url):
             splitseconditem.clear()
 
     print(parsedoutput)
-    #for i in parsedoutput:
+    for i in parsedoutput:
         print("Weapon is:", i[0])
         print("Skin is:", i[1])
         print("Condition is:", i[2])
