@@ -49,9 +49,8 @@ Steam Community Market :: Showing results for: Counter-Strike: Global Offensive,
 
 
 
-
 									Login								
-
+
 		Store	
 
 Home
@@ -61,8 +60,8 @@ Points Shop
 News
 Stats
 
-
-		Community	
+
+			Community		
 
 Home
 Discussions
@@ -70,22 +69,22 @@ Workshop
 Market
 Broadcasts
 
-
+
 		Support	
 
-
+
 									Change language								
-
+
 										View desktop website									
 
 
 
 
-
+
 							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							
-Privacy Policy
-								 |  Legal
-								 |  Steam Subscriber Agreement
+Privacy Policy
+								 |  Legal
+								 |  Steam Subscriber Agreement
 								 |  Refunds
 
 
@@ -128,7 +127,7 @@ Privacy Policy
 
 
 
-
+
 		STORE	
 
 Home
@@ -138,8 +137,8 @@ Points Shop
 News
 Stats
 
-
-		COMMUNITY	
+
+			COMMUNITY		
 
 Home
 Discussions
@@ -147,20 +146,20 @@ Workshop
 Market
 Broadcasts
 
-
+
 				ABOUT			
-
+
 		SUPPORT	
 
 
 
 
 
-
+
 							Install Steam						
 
-login
-											 | 
+login
+											 | 
 						language
 
 
@@ -240,7 +239,7 @@ Showing results for:
 
 
 Counter-Strike: Global Offensive 
-
+
 						The Gamma Collection 
 Clear all
 
@@ -249,7 +248,7 @@ Clear all
 
 
 
-
+
 						Search for Items					
 
 
@@ -289,21 +288,21 @@ NAME
 
 
 
-879
+172
 
 
 
-
+
 					Starting at:
-$0.63
-$0.61
+$13.34
+$12.76
 
 
 
 
 
 
-P90 | Chopper (Field-Tested)
+M4A1-S | Mecha Industries (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -316,21 +315,21 @@ Counter-Strike: Global Offensive
 
 
 
-395
+73
 
 
 
-
+
 					Starting at:
-$0.23
-$0.22
+$1.53
+$1.47
 
 
 
 
 
 
-Nova | Exo (Factory New)
+StatTrak™ AUG | Aristocrat (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -343,21 +342,21 @@ Counter-Strike: Global Offensive
 
 
 
-444
+112
 
 
 
-
+
 					Starting at:
-$0.12
-$0.11
+$2.77
+$2.65
 
 
 
 
 
 
-PP-Bizon | Harvester (Battle-Scarred)
+StatTrak™ AUG | Aristocrat (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -370,21 +369,21 @@ Counter-Strike: Global Offensive
 
 
 
-489
+124
 
 
 
-
+
 					Starting at:
-$0.55
-$0.53
+$3.49
+$3.34
 
 
 
 
 
 
-AUG | Aristocrat (Field-Tested)
+StatTrak™ R8 Revolver | Reboot (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -397,21 +396,21 @@ Counter-Strike: Global Offensive
 
 
 
-1,727
+122
 
 
 
-
+
 					Starting at:
-$0.20
-$0.19
+$3.58
+$3.43
 
 
 
 
 
 
-SG 553 | Aerial (Minimal Wear)
+StatTrak™ P2000 | Imperial Dragon (Field-Tested)
 
 Counter-Strike: Global Offensive
 
@@ -424,21 +423,21 @@ Counter-Strike: Global Offensive
 
 
 
-77
+128
 
 
 
-
+
 					Starting at:
-$0.24
-$0.23
+$3.05
+$2.92
 
 
 
 
 
 
-StatTrak™ PP-Bizon | Harvester (Battle-Scarred)
+R8 Revolver | Reboot (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -451,21 +450,21 @@ Counter-Strike: Global Offensive
 
 
 
-1,213
+150
 
 
 
-
+
 					Starting at:
-$0.13
-$0.12
+$5.70
+$5.46
 
 
 
 
 
 
-P250 | Iron Clad (Field-Tested)
+SCAR-20 | Bloodsport (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -478,21 +477,21 @@ Counter-Strike: Global Offensive
 
 
 
-91
+115
 
 
 
-
+
 					Starting at:
-$0.87
-$0.84
+$0.46
+$0.44
 
 
 
 
 
 
-StatTrak™ SG 553 | Aerial (Well-Worn)
+P250 | Iron Clad (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -505,21 +504,21 @@ Counter-Strike: Global Offensive
 
 
 
-780
+145
 
 
 
-
+
 					Starting at:
-$0.12
-$0.11
+$6.87
+$6.58
 
 
 
 
 
 
-MAC-10 | Carnivore (Well-Worn)
+M4A1-S | Mecha Industries (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -532,21 +531,21 @@ Counter-Strike: Global Offensive
 
 
 
-235
+110
 
 
 
-
+
 					Starting at:
-$0.43
-$0.42
+$0.48
+$0.46
 
 
 
 
 
 
-StatTrak™ P250 | Iron Clad (Minimal Wear)
+StatTrak™ Tec-9 | Ice Cap (Well-Worn)
 
 Counter-Strike: Global Offensive
 
@@ -560,7 +559,7 @@ Counter-Strike: Global Offensive
 
 >
 
-
+
 				Showing 1-10 of 167 results			
 
 
@@ -778,6 +777,9 @@ Fruit Ninja VR
 
 
 Gem Forge
+
+
+Golf Around!
 
 
 Golf It!
@@ -1049,7 +1051,7 @@ scram
 
 
 
-
+
 					Pick a game from the drop-down list above to see the available filters.				
 
 
@@ -1057,7 +1059,7 @@ scram
 
 Reset to default
 
-
+
 				Search			
 
 
@@ -1070,11 +1072,11 @@ Reset to default
 
 
 
-
+
 				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.				
 
-Privacy Policy
-						  |  Legal
+Privacy Policy
+						  |  Legal
 						 |  Steam Subscriber Agreement
 
 

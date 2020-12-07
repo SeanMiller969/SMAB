@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from Weapon import Weapon
+import ssl
 
 def get_json(url):
+    ssl._create_default_https_context = ssl._create_unverified_context
     page = urlopen(url)
     html = page.read().decode("utf-8")
     soup = BeautifulSoup(html, "html.parser")
