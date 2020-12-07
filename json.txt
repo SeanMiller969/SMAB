@@ -288,156 +288,21 @@ NAME
 
 
 
-172
+148
 
 
 
 
 					Starting at:
-$13.34
-$12.76
+$0.28
+$0.27
 
 
 
 
 
 
-M4A1-S | Mecha Industries (Minimal Wear)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-73
-
-
-
-
-					Starting at:
-$1.53
-$1.47
-
-
-
-
-
-
-StatTrak™ AUG | Aristocrat (Battle-Scarred)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-112
-
-
-
-
-					Starting at:
-$2.77
-$2.65
-
-
-
-
-
-
-StatTrak™ AUG | Aristocrat (Minimal Wear)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-124
-
-
-
-
-					Starting at:
-$3.49
-$3.34
-
-
-
-
-
-
-StatTrak™ R8 Revolver | Reboot (Minimal Wear)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-122
-
-
-
-
-					Starting at:
-$3.58
-$3.43
-
-
-
-
-
-
-StatTrak™ P2000 | Imperial Dragon (Field-Tested)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-128
-
-
-
-
-					Starting at:
-$3.05
-$2.92
-
-
-
-
-
-
-R8 Revolver | Reboot (Factory New)
+PP-Bizon | Harvester (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -456,8 +321,170 @@ Counter-Strike: Global Offensive
 
 
 					Starting at:
-$5.70
-$5.46
+$5.35
+$5.12
+
+
+
+
+
+
+P2000 | Imperial Dragon (Factory New)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+112
+
+
+
+
+					Starting at:
+$0.94
+$0.90
+
+
+
+
+
+
+P90 | Chopper (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+171
+
+
+
+
+					Starting at:
+$0.83
+$0.80
+
+
+
+
+
+
+StatTrak™ Nova | Exo (Factory New)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+188
+
+
+
+
+					Starting at:
+$0.16
+$0.15
+
+
+
+
+
+
+Tec-9 | Ice Cap (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+161
+
+
+
+
+					Starting at:
+$0.18
+$0.17
+
+
+
+
+
+
+Nova | Exo (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+187
+
+
+
+
+					Starting at:
+$1.43
+$1.37
+
+
+
+
+
+
+StatTrak™ AUG | Aristocrat (Field-Tested)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+151
+
+
+
+
+					Starting at:
+$5.68
+$5.44
 
 
 
@@ -477,21 +504,21 @@ Counter-Strike: Global Offensive
 
 
 
-115
+131
 
 
 
 
 					Starting at:
-$0.46
-$0.44
+$0.17
+$0.16
 
 
 
 
 
 
-P250 | Iron Clad (Factory New)
+Nova | Exo (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -504,48 +531,21 @@ Counter-Strike: Global Offensive
 
 
 
-145
+90
 
 
 
 
 					Starting at:
-$6.87
-$6.58
+$0.65
+$0.63
 
 
 
 
 
 
-M4A1-S | Mecha Industries (Battle-Scarred)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-110
-
-
-
-
-					Starting at:
-$0.48
-$0.46
-
-
-
-
-
-
-StatTrak™ Tec-9 | Ice Cap (Well-Worn)
+StatTrak™ SG 553 | Aerial (Well-Worn)
 
 Counter-Strike: Global Offensive
 

@@ -56,10 +56,26 @@ def clean_json(url):
                 "Factory New" : 0,
             }
             print("Conditiondict", conditiondict[condition])
+            stattrak = False
+            weapon = weapon.strip()
+            attributelist = weapon.split(" ")
+            print(attributelist)
+            if(len(attributelist) != 1):
+                if(len(attributelist)== 2):
+                    print(attributelist)
+                    if(attributelist[0] == "R8"):
+                        weapon = attributelist[0] + " " + attributelist[1]
+                    else:
+                        weapon = attributelist[1]
+                        stattrak = True
+                #R8 Revolver Case
+                if(len(attributelist)== 3):
+                    weapon = attributelist[1] + " " + attributelist[2]
+                    stattrak = True
             price1 = price1.replace('$', '')
             price2 = price2.replace('$', '')
             print("prices are fixed", price1,price2)
-            weap = Weapon(weapon,skin,False,conditiondict[condition],price1,price2)
+            weap = Weapon(weapon,skin,stattrak,conditiondict[condition],price1,price2)
             output.append(weap)
             print(parserpart)
             parsedoutput.append(parserpart)
