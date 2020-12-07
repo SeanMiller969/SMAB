@@ -49,9 +49,8 @@ Steam Community Market :: Showing results for: Counter-Strike: Global Offensive,
 
 
 
-
 									Login								
-
+
 		Store	
 
 Home
@@ -61,8 +60,8 @@ Points Shop
 News
 Stats
 
-
-		Community	
+
+			Community		
 
 Home
 Discussions
@@ -70,22 +69,22 @@ Workshop
 Market
 Broadcasts
 
-
+
 		Support	
 
-
+
 									Change language								
-
+
 										View desktop website									
 
 
 
 
-
+
 							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							
-Privacy Policy
-								 |  Legal
-								 |  Steam Subscriber Agreement
+Privacy Policy
+								 |  Legal
+								 |  Steam Subscriber Agreement
 								 |  Refunds
 
 
@@ -128,7 +127,7 @@ Privacy Policy
 
 
 
-
+
 		STORE	
 
 Home
@@ -138,8 +137,8 @@ Points Shop
 News
 Stats
 
-
-		COMMUNITY	
+
+			COMMUNITY		
 
 Home
 Discussions
@@ -147,20 +146,20 @@ Workshop
 Market
 Broadcasts
 
-
+
 				ABOUT			
-
+
 		SUPPORT	
 
 
 
 
 
-
+
 							Install Steam						
 
-login
-											 | 
+login
+											 | 
 						language
 
 
@@ -240,7 +239,7 @@ Showing results for:
 
 
 Counter-Strike: Global Offensive 
-
+
 						The Gamma Collection 
 Clear all
 
@@ -249,7 +248,7 @@ Clear all
 
 
 
-
+
 						Search for Items					
 
 
@@ -289,41 +288,14 @@ NAME
 
 
 
-159
+148
 
 
 
-
+
 					Starting at:
-$0.86
-$0.83
-
-
-
-
-
-
-StatTrak™ Nova | Exo (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-159
-
-
-
-
-					Starting at:
-$0.31
-$0.30
+$0.28
+$0.27
 
 
 
@@ -343,41 +315,14 @@ Counter-Strike: Global Offensive
 
 
 
-125
+150
 
 
 
-
+
 					Starting at:
-$2.03
-$1.95
-
-
-
-
-
-
-P90 | Chopper (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-110
-
-
-
-
-					Starting at:
-$5.80
-$5.55
+$5.35
+$5.12
 
 
 
@@ -397,14 +342,14 @@ Counter-Strike: Global Offensive
 
 
 
-95
+112
 
 
 
-
+
 					Starting at:
-$0.95
-$0.91
+$0.94
+$0.90
 
 
 
@@ -424,21 +369,21 @@ Counter-Strike: Global Offensive
 
 
 
-152
+171
 
 
 
-
+
 					Starting at:
-$1.81
-$1.74
+$0.83
+$0.80
 
 
 
 
 
 
-StatTrak™ P90 | Chopper (Field-Tested)
+StatTrak™ Nova | Exo (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -451,11 +396,11 @@ Counter-Strike: Global Offensive
 
 
 
-174
+188
 
 
 
-
+
 					Starting at:
 $0.16
 $0.15
@@ -478,14 +423,14 @@ Counter-Strike: Global Offensive
 
 
 
-112
+161
 
 
 
-
+
 					Starting at:
-$0.20
-$0.19
+$0.18
+$0.17
 
 
 
@@ -505,14 +450,14 @@ Counter-Strike: Global Offensive
 
 
 
-169
+187
 
 
 
-
+
 					Starting at:
-$1.63
-$1.56
+$1.43
+$1.37
 
 
 
@@ -532,14 +477,14 @@ Counter-Strike: Global Offensive
 
 
 
-167
+151
 
 
 
-
+
 					Starting at:
-$5.40
-$5.17
+$5.68
+$5.44
 
 
 
@@ -556,11 +501,65 @@ Counter-Strike: Global Offensive
 
 
 
+
+
+
+131
+
+
+
+
+					Starting at:
+$0.17
+$0.16
+
+
+
+
+
+
+Nova | Exo (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+90
+
+
+
+
+					Starting at:
+$0.65
+$0.63
+
+
+
+
+
+
+StatTrak™ SG 553 | Aerial (Well-Worn)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
 <
 
 >
 
-
+
 				Showing 1-10 of 167 results			
 
 
@@ -667,6 +666,9 @@ Bloody Glimpse
 
 
 Bloody Walls
+
+
+Boreal Blade
 
 
 Brawl of Ages
@@ -777,6 +779,9 @@ Fruit Ninja VR
 Gem Forge
 
 
+Golf Around!
+
+
 Golf It!
 
 
@@ -793,9 +798,6 @@ HUNGER
 
 
 Half-Life: C.A.G.E.D.
-
-
-Hanako: Honor & Blade Early Access
 
 
 Heliborne - Enhanced Edition
@@ -1011,7 +1013,7 @@ Warframe
 West of Red
 
 
-Wolflord BETA
+Wolflord - Werewolf Online
 
 
 World of Warships
@@ -1049,7 +1051,7 @@ scram
 
 
 
-
+
 					Pick a game from the drop-down list above to see the available filters.				
 
 
@@ -1057,7 +1059,7 @@ scram
 
 Reset to default
 
-
+
 				Search			
 
 
@@ -1070,11 +1072,11 @@ Reset to default
 
 
 
-
+
 				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.				
 
-Privacy Policy
-						  |  Legal
+Privacy Policy
+						  |  Legal
 						 |  Steam Subscriber Agreement
 
 
