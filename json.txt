@@ -81,11 +81,11 @@ Broadcasts
 
 
 
-							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							
-Privacy Policy
-								 |  Legal
-								 |  Steam Subscriber Agreement
-								 |  Refunds
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								
+#footer_privacy_policy
+									 |  #footer_legal
+									 |  #footer_ssa
+									 |  #footer_refunds
 
 
 
@@ -288,14 +288,95 @@ NAME
 
 
 
-148
+161
 
 
 
 
 					Starting at:
-$0.28
-$0.27
+$2.44
+$2.34
+
+
+
+
+
+
+StatTrak™ Five-SeveN | Violent Daimyo (Factory New)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+46
+
+
+
+
+					Starting at:
+$15.19
+$14.53
+
+
+
+
+
+
+StatTrak™ M4A4 | Desolate Space (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+117
+
+
+
+
+					Starting at:
+$3.72
+$3.56
+
+
+
+
+
+
+StatTrak™ P2000 | Imperial Dragon (Field-Tested)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+130
+
+
+
+
+					Starting at:
+$0.39
+$0.38
 
 
 
@@ -315,21 +396,21 @@ Counter-Strike: Global Offensive
 
 
 
-150
+38
 
 
 
 
 					Starting at:
-$5.35
-$5.12
+$12.56
+$12.02
 
 
 
 
 
 
-P2000 | Imperial Dragon (Factory New)
+StatTrak™ SCAR-20 | Bloodsport (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -342,21 +423,21 @@ Counter-Strike: Global Offensive
 
 
 
-112
+45
 
 
 
 
 					Starting at:
-$0.94
-$0.90
+$13.93
+$13.33
 
 
 
 
 
 
-P90 | Chopper (Well-Worn)
+StatTrak™ P2000 | Imperial Dragon (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -369,21 +450,21 @@ Counter-Strike: Global Offensive
 
 
 
-171
+95
 
 
 
 
 					Starting at:
-$0.83
-$0.80
+$1.22
+$1.17
 
 
 
 
 
 
-StatTrak™ Nova | Exo (Factory New)
+StatTrak™ R8 Revolver | Reboot (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -396,21 +477,21 @@ Counter-Strike: Global Offensive
 
 
 
-188
+60
 
 
 
 
 					Starting at:
-$0.16
-$0.15
+$2.44
+$2.34
 
 
 
 
 
 
-Tec-9 | Ice Cap (Battle-Scarred)
+StatTrak™ Sawed-Off | Limelight (Minimal Wear)
 
 Counter-Strike: Global Offensive
 
@@ -423,21 +504,21 @@ Counter-Strike: Global Offensive
 
 
 
-161
+81
 
 
 
 
 					Starting at:
-$0.18
-$0.17
+$1.81
+$1.74
 
 
 
 
 
 
-Nova | Exo (Well-Worn)
+Sawed-Off | Limelight (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -450,102 +531,21 @@ Counter-Strike: Global Offensive
 
 
 
-187
+51
 
 
 
 
 					Starting at:
-$1.43
-$1.37
+$0.89
+$0.86
 
 
 
 
 
 
-StatTrak™ AUG | Aristocrat (Field-Tested)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-151
-
-
-
-
-					Starting at:
-$5.68
-$5.44
-
-
-
-
-
-
-SCAR-20 | Bloodsport (Factory New)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-131
-
-
-
-
-					Starting at:
-$0.17
-$0.16
-
-
-
-
-
-
-Nova | Exo (Battle-Scarred)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-90
-
-
-
-
-					Starting at:
-$0.65
-$0.63
-
-
-
-
-
-
-StatTrak™ SG 553 | Aerial (Well-Worn)
+StatTrak™ Sawed-Off | Limelight (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -1073,11 +1073,11 @@ Reset to default
 
 
 
-				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.				
+					© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.					
 
 Privacy Policy
-						  |  Legal
-						 |  Steam Subscriber Agreement
+							  |  Legal
+							 |  Steam Subscriber Agreement
 
 
 
