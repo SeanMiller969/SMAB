@@ -49,9 +49,8 @@ Steam Community Market :: Showing results for: Counter-Strike: Global Offensive,
 
 
 
-
 									Login								
-
+
 		Store	
 
 Home
@@ -61,8 +60,8 @@ Points Shop
 News
 Stats
 
-
-		Community	
+
+			Community		
 
 Home
 Discussions
@@ -70,23 +69,23 @@ Workshop
 Market
 Broadcasts
 
-
+
 		Support	
 
-
+
 									Change language								
-
+
 										View desktop website									
 
 
 
 
-
-							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							
-Privacy Policy
-								 |  Legal
-								 |  Steam Subscriber Agreement
-								 |  Refunds
+
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								
+#footer_privacy_policy
+									 |  #footer_legal
+									 |  #footer_ssa
+									 |  #footer_refunds
 
 
 
@@ -128,7 +127,7 @@ Privacy Policy
 
 
 
-
+
 		STORE	
 
 Home
@@ -138,8 +137,8 @@ Points Shop
 News
 Stats
 
-
-		COMMUNITY	
+
+			COMMUNITY		
 
 Home
 Discussions
@@ -147,20 +146,20 @@ Workshop
 Market
 Broadcasts
 
-
+
 				ABOUT			
-
+
 		SUPPORT	
 
 
 
 
 
-
+
 							Install Steam						
 
-login
-											 | 
+login
+											 | 
 						language
 
 
@@ -240,7 +239,7 @@ Showing results for:
 
 
 Counter-Strike: Global Offensive 
-
+
 						The Gamma Collection 
 Clear all
 
@@ -249,7 +248,7 @@ Clear all
 
 
 
-
+
 						Search for Items					
 
 
@@ -289,21 +288,21 @@ NAME
 
 
 
-159
+161
 
 
 
-
+
 					Starting at:
-$0.86
-$0.83
+$2.44
+$2.34
 
 
 
 
 
 
-StatTrak™ Nova | Exo (Factory New)
+StatTrak™ Five-SeveN | Violent Daimyo (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -316,14 +315,68 @@ Counter-Strike: Global Offensive
 
 
 
-159
+46
 
 
 
-
+
 					Starting at:
-$0.31
-$0.30
+$15.19
+$14.53
+
+
+
+
+
+
+StatTrak™ M4A4 | Desolate Space (Battle-Scarred)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+117
+
+
+
+
+					Starting at:
+$3.72
+$3.56
+
+
+
+
+
+
+StatTrak™ P2000 | Imperial Dragon (Field-Tested)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+130
+
+
+
+
+					Starting at:
+$0.39
+$0.38
 
 
 
@@ -343,21 +396,21 @@ Counter-Strike: Global Offensive
 
 
 
-125
+38
 
 
 
-
+
 					Starting at:
-$2.03
-$1.95
+$12.56
+$12.02
 
 
 
 
 
 
-P90 | Chopper (Factory New)
+StatTrak™ SCAR-20 | Bloodsport (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -370,21 +423,21 @@ Counter-Strike: Global Offensive
 
 
 
-110
+45
 
 
 
-
+
 					Starting at:
-$5.80
-$5.55
+$13.93
+$13.33
 
 
 
 
 
 
-P2000 | Imperial Dragon (Factory New)
+StatTrak™ P2000 | Imperial Dragon (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -401,17 +454,17 @@ Counter-Strike: Global Offensive
 
 
 
-
+
 					Starting at:
-$0.95
-$0.91
+$1.22
+$1.17
 
 
 
 
 
 
-P90 | Chopper (Well-Worn)
+StatTrak™ R8 Revolver | Reboot (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -424,11 +477,38 @@ Counter-Strike: Global Offensive
 
 
 
-152
+60
 
 
 
-
+
+					Starting at:
+$2.44
+$2.34
+
+
+
+
+
+
+StatTrak™ Sawed-Off | Limelight (Minimal Wear)
+
+Counter-Strike: Global Offensive
+
+
+
+
+
+
+
+
+
+
+81
+
+
+
+
 					Starting at:
 $1.81
 $1.74
@@ -438,7 +518,7 @@ $1.74
 
 
 
-StatTrak™ P90 | Chopper (Field-Tested)
+Sawed-Off | Limelight (Factory New)
 
 Counter-Strike: Global Offensive
 
@@ -451,102 +531,21 @@ Counter-Strike: Global Offensive
 
 
 
-174
+51
 
 
 
-
+
 					Starting at:
-$0.16
-$0.15
+$0.89
+$0.86
 
 
 
 
 
 
-Tec-9 | Ice Cap (Battle-Scarred)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-112
-
-
-
-
-					Starting at:
-$0.20
-$0.19
-
-
-
-
-
-
-Nova | Exo (Well-Worn)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-169
-
-
-
-
-					Starting at:
-$1.63
-$1.56
-
-
-
-
-
-
-StatTrak™ AUG | Aristocrat (Field-Tested)
-
-Counter-Strike: Global Offensive
-
-
-
-
-
-
-
-
-
-
-167
-
-
-
-
-					Starting at:
-$5.40
-$5.17
-
-
-
-
-
-
-SCAR-20 | Bloodsport (Factory New)
+StatTrak™ Sawed-Off | Limelight (Battle-Scarred)
 
 Counter-Strike: Global Offensive
 
@@ -560,7 +559,7 @@ Counter-Strike: Global Offensive
 
 >
 
-
+
 				Showing 1-10 of 167 results			
 
 
@@ -667,6 +666,9 @@ Bloody Glimpse
 
 
 Bloody Walls
+
+
+Boreal Blade
 
 
 Brawl of Ages
@@ -777,6 +779,9 @@ Fruit Ninja VR
 Gem Forge
 
 
+Golf Around!
+
+
 Golf It!
 
 
@@ -793,9 +798,6 @@ HUNGER
 
 
 Half-Life: C.A.G.E.D.
-
-
-Hanako: Honor & Blade Early Access
 
 
 Heliborne - Enhanced Edition
@@ -1011,7 +1013,7 @@ Warframe
 West of Red
 
 
-Wolflord BETA
+Wolflord - Werewolf Online
 
 
 World of Warships
@@ -1049,7 +1051,7 @@ scram
 
 
 
-
+
 					Pick a game from the drop-down list above to see the available filters.				
 
 
@@ -1057,7 +1059,7 @@ scram
 
 Reset to default
 
-
+
 				Search			
 
 
@@ -1070,12 +1072,12 @@ Reset to default
 
 
 
-
-				© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.				
 
-Privacy Policy
-						  |  Legal
-						 |  Steam Subscriber Agreement
+					© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.Some geospatial data on this website is provided by geonames.org.					
+
+Privacy Policy
+							  |  Legal
+							 |  Steam Subscriber Agreement
 
 
 
