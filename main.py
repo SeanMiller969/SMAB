@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from search_id import *
 from url_traversal import get_json
+from url_traversalV2 import scrape_data
 import csv
 import time
 from Weapon import *
@@ -23,7 +24,7 @@ def main():
     JSON = []
     NumberOfPages = 7
     for i in range(NumberOfPages):
-        JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
+        JSON.append(scrape_data(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         time.sleep(3)
         i += 1
     #Pipe out to a csv
