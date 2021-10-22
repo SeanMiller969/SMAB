@@ -6,7 +6,33 @@ block layout-content
     div.Message
       div.Title
         h3 Lets drink some classroom beers
-      span.Details SMABulators unite!
+      <div class="topnav">
+        <input type="text" id="inputCase" onkeyup="searchCases()" placeholder="Search...">	
+        <ul id="caseUL">
+          <li><a href="#">Operation 2</a></li>
+          <li><a href="#">Prism</a></li>
+          <li><a href="#">Shattered web</a></li>
+        </ul>
+      </div>
     div.NavButtons
       a(href="/user")
           div.NavButton Smabulate
+
+<script>
+function searchCases() {
+  var input, upper, ul, li, a, i, textValue;
+  input = document.getElementById("inputCase");
+  upper = input.value.toUpperCase(input);
+  ul = document.getElementById("caseUL");
+  li = ul.getElementsByTagName("li");
+  for (var i = 0; i < li.length; ++i) {
+    a = li[i].getElementsByTagName("a")[0];
+    textValue = a.textContent || a.innerText;
+	  if (textValue.toUpperCase().indexOf(upper) > -1) {
+	    li[i].style.display = "";
+	  } else {
+      li[i].style.display = "none";
+	  }
+  }
+}
+</script>
