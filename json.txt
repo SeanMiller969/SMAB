@@ -287,14 +287,14 @@ NAME
 
 
 
-104
+108
 
 
 
 
 					Starting at:
-$0.97
-$0.93
+$0.85
+$0.82
 
 
 
@@ -314,14 +314,14 @@ Counter-Strike: Global Offensive
 
 
 
-128
+134
 
 
 
 
 					Starting at:
-$3.49
-$3.34
+$3.19
+$3.06
 
 
 
@@ -341,14 +341,14 @@ Counter-Strike: Global Offensive
 
 
 
-128
+126
 
 
 
 
 					Starting at:
-$0.24
-$0.23
+$0.26
+$0.25
 
 
 
@@ -368,14 +368,14 @@ Counter-Strike: Global Offensive
 
 
 
-111
+106
 
 
 
 
 					Starting at:
-$0.39
-$0.38
+$0.47
+$0.45
 
 
 
@@ -395,14 +395,14 @@ Counter-Strike: Global Offensive
 
 
 
-96
+139
 
 
 
 
 					Starting at:
-$0.26
-$0.25
+$0.21
+$0.20
 
 
 
@@ -422,14 +422,14 @@ Counter-Strike: Global Offensive
 
 
 
-129
+162
 
 
 
 
 					Starting at:
-$6.00
-$5.74
+$5.00
+$4.79
 
 
 
@@ -449,14 +449,14 @@ Counter-Strike: Global Offensive
 
 
 
-60
+68
 
 
 
 
 					Starting at:
-$5.57
-$5.33
+$5.13
+$4.91
 
 
 
@@ -476,14 +476,14 @@ Counter-Strike: Global Offensive
 
 
 
-125
+124
 
 
 
 
 					Starting at:
-$3.59
-$3.44
+$3.50
+$3.35
 
 
 
@@ -503,14 +503,14 @@ Counter-Strike: Global Offensive
 
 
 
-127
+132
 
 
 
 
 					Starting at:
-$3.25
-$3.11
+$3.22
+$3.08
 
 
 
@@ -530,14 +530,14 @@ Counter-Strike: Global Offensive
 
 
 
-36
+38
 
 
 
 
 					Starting at:
-$37.49
-$35.86
+$38.67
+$36.99
 
 
 
