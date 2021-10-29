@@ -27,7 +27,16 @@ def makeDoc(string_data, i):
         'buy_at' : buy_price,
         'sell_at' : sell_price,
     }
-
+    #Possible code to update the values, untestable until the base parts of the database is filled in.
+    '''
+    db.weapon_col.update(
+        {_id: Possibly gun, or an integer value, unsure}
+        $set:{
+            buy_at: buy_price
+            sell_at: sell_price
+        }
+    )
+    '''
 
 
 def scrape_data(url):
