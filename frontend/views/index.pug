@@ -1,0 +1,20 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner SMAB
+    div.Message
+      div.Title
+        h3 Search for a case
+      <div class="topnav">
+        <input type="text" id="inputCase" onkeyup="searchCases()" placeholder="Search...">	
+        <ul id="caseUL">
+          <li><a href="#">Operation 2</a></li>
+          <li><a href="#">Prism</a></li>
+          <li><a href="#">Shattered web</a></li>
+        </ul>
+      </div>
+    div.NavButtons
+      a(href="/user")
+          div.NavButton Smabulate
+
