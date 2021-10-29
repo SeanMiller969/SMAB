@@ -5,53 +5,48 @@ block layout-content
   div.View.WelcomeView
     h1.Banner SMAB
     div.Message
-      div.Title
-        h3 Search for a case
-      <div class="topnav">
-        <input type="text" id="inputCase" onkeyup="searchCases()" placeholder="Search...">	
-        <ul id="caseUL">
-          <li><a href="#">Operation 2</a></li>
-          <li><a href="#">Prism</a></li>
-          <li><a href="#">Shattered web</a></li>
-        </ul>
+    <input type="text" id="inputCase" onkeyup="searchCases()" placeholder="Search..." class="CaseSearchBar">  
+    <div class="topnav">
+      // This looks really gross and hard to read but it was the only way I could get each list item to have the correct link functionality
+      ul
+        <li><a href='csgo-weapon-case'>CSGO Weapon Case</a></li>
+        <li><a href='esports-2013-case'>eSports 2013 Case</a></li>
+        <li><a href='operation-bravo-case'>Operation Bravo Case</a></li>
+        <li><a href='csgo-weapon-case-2'>CSGO Weapon Case 2</a></li>
+        <li><a href='esports-2013-winter-case'>eSports 2013 Winter Case</a></li>
+        <li><a href='winter-offensive-weapon-case'>Winter Offensive Weapon Case</a></li>
+        <li><a href='csgo-weapon-case-3'>CSGO Weapon Case 3</a></li>
+        <li><a href='operation-phoenix-weapon-case'>Operation Phoenix Weapon Case</a></li>
+        <li><a href='huntsman-weapon-case'>Huntsman Weapon Case</a></li>
+        <li><a href='operation-breakout-weapon-case'>Operation Breakout Weapon Case</a></li>
+        <li><a href='esports-2014-summer-case'>eSports 2014 Summer Case</a></li>
+        <li><a href='operation-vanguard-weapon-case'>Operation Vanguard Weapon Case</a></li>
+        <li><a href='chroma-case'>Chroma Case</a></li>
+        <li><a href='chroma-2-case'>Chroma 2 Case</a></li>
+        <li><a href='falchion-case'>Falchion Case</a></li>
+        <li><a href='shadow-case'>Shadow Case</a></li>
+        <li><a href='revolver-case'>Revolver Case</a></li>
+        <li><a href='operation-wildfire-case'>Operation Wildfire Case</a></li>
+        <li><a href='chroma-3-case'>Chroma 3 Case</a></li>
+        <li><a href='gamma-case'>Gamma Case</a></li>
+        <li><a href='gamma-2-case'>Gamma 2 Case</a></li>
+        <li><a href='glove-case'>Glove Case</a></li>
+        <li><a href='spectrum-case'>Spectrum Case</a></li>
+        <li><a href='operation-hydra-case'>Operation Hydra Case</a></li>
+        <li><a href='spectrum-2-case'>Spectrum 2 Case</a></li>
+        <li><a href='clutch-case'>Clutch Case</a></li>
+        <li><a href='horizon-case'>Horizon Case</a></li>
+        <li><a href='danger-zone-case'>Danger Zone Case</a></li>
+        <li><a href='prisma-case'>Prisma Case</a></li>
+        <li><a href='cs20-case'>CS20 Case</a></li>
+        <li><a href='shattered-web-case'>Shattered Web Case</a></li>
+        <li><a href='prisma-2-case'>Prisma 2 Case</a></li>
+        <li><a href='fracture-case'>Fracture Case</a></li>
+        <li><a href='operation-broken-fang-case'>Operation Broken Fang Case</a></li>
+        <li><a href='snakebite-case'>Snakebite Case</a></li>
+        <li><a href='operation-riptide-case'>Operation Riptide Case</a></li>
       </div>
-    div.NavButtons
-      a(href="/user")
-          div.NavButton Smabulate
+    //div.NavButtons
+    //  a(href="/user")
+    //      div.NavButton Smabulate
 
-const caseList =  ["CS:GO Weapon Case", 
-                   "eSports 2013 Case",  
-                   "Operation Bravo Case", 
-                   "CS:GO Weapon Case 2", 
-                   "eSports 2013 Winter Case", 
-                   "Winter Offensive Weapon Case",
-                   "CS:GO Weapon Case 3",
-                   "Operation Phoenix Weapon Case",
-                   "Huntsman Weapon Case",
-                   "Operation Breakout Weapon Case",
-                   "eSports 2014 Summer Case",
-                   "Operation Vanguard Weapon Case",
-                   "Chroma Case",
-                   "Chroma 2 Case",
-                   "Falchion Case",
-                   "Shadow Case",
-                   "Revolver Case",
-                   "Operation Wildfire Case",
-                   "Chroma 3 Case",
-                   "Gamma Case",
-                   "Gamma 2 Case",
-                   "Glove Case",
-                   "Spectrum Case",
-                   "Operation Hydra Case",
-                   "Spectrum 2 Case",
-                   "Clutch Case",
-                   "Horizon Case",
-                   "Danger Zone Case",
-                   "Prisma Case",
-                   "CS20 Case",
-                   "Shattered Web Case",
-                   "Prisma 2 Case",
-                   "Fracture Case",
-                   "Operation Broken Fang Case",
-                   "Snakebite Case",
-                   "Operation Riptide Case"]
