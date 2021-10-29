@@ -34,8 +34,15 @@ h3 {
 h1 {
 	font-style: oblique;
 	color: black;
-	text-align: center;
+	text-align: left;
 	background-color: lightblue;
+}
+
+ul.caseUL {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 20px;
 }
 
 .View {

@@ -1,11 +1,12 @@
 extends layout
 
+
 block layout-content
   div.View.WelcomeView
     h1.Banner SMAB
     div.Message
       div.Title
-        h3 Lets drink some classroom beers
+        h3 Search for a case
       <div class="topnav">
         <input type="text" id="inputCase" onkeyup="searchCases()" placeholder="Search...">	
         <ul id="caseUL">
@@ -18,21 +19,39 @@ block layout-content
       a(href="/user")
           div.NavButton Smabulate
 
-<script>
-function searchCases() {
-  var input, upper, ul, li, a, i, textValue;
-  input = document.getElementById("inputCase");
-  upper = input.value.toUpperCase(input);
-  ul = document.getElementById("caseUL");
-  li = ul.getElementsByTagName("li");
-  for (var i = 0; i < li.length; ++i) {
-    a = li[i].getElementsByTagName("a")[0];
-    textValue = a.textContent || a.innerText;
-	  if (textValue.toUpperCase().indexOf(upper) > -1) {
-	    li[i].style.display = "";
-	  } else {
-      li[i].style.display = "none";
-	  }
-  }
-}
-</script>
+const caseList =  ["CS:GO Weapon Case", 
+                   "eSports 2013 Case",  
+                   "Operation Bravo Case", 
+                   "CS:GO Weapon Case 2", 
+                   "eSports 2013 Winter Case", 
+                   "Winter Offensive Weapon Case",
+                   "CS:GO Weapon Case 3",
+                   "Operation Phoenix Weapon Case",
+                   "Huntsman Weapon Case",
+                   "Operation Breakout Weapon Case",
+                   "eSports 2014 Summer Case",
+                   "Operation Vanguard Weapon Case",
+                   "Chroma Case",
+                   "Chroma 2 Case",
+                   "Falchion Case",
+                   "Shadow Case",
+                   "Revolver Case",
+                   "Operation Wildfire Case",
+                   "Chroma 3 Case",
+                   "Gamma Case",
+                   "Gamma 2 Case",
+                   "Glove Case",
+                   "Spectrum Case",
+                   "Operation Hydra Case",
+                   "Spectrum 2 Case",
+                   "Clutch Case",
+                   "Horizon Case",
+                   "Danger Zone Case",
+                   "Prisma Case",
+                   "CS20 Case",
+                   "Shattered Web Case",
+                   "Prisma 2 Case",
+                   "Fracture Case",
+                   "Operation Broken Fang Case",
+                   "Snakebite Case",
+                   "Operation Riptide Case"]
