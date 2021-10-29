@@ -1,27 +1,51 @@
 import requests
-import json
 import time
 from bs4 import BeautifulSoup
 
+'''
+Initialization script this collects data for every single weapon case in the game
+this includes data for the rairty of the skin and the weapon and skin name
+'''
+
 def main():
+    finalList = list()
+    #iterate through every case in the game
     for val in caseList:
-        URL = "https://steamcommunity.com/market/listings/730/" + val
+        #collect our url
+        URL = "https://www.csgodatabase.com/cases/" + val
+        #store which case we are int
         print(URL)
-        
+        #give the website some breathing room
+        time.sleep(2)
+        #get our html page using the request library
         page = requests.get(URL)
-        time.sleep(4)
+        #use soup to collect a bunch of html information
         soup = BeautifulSoup(page.content, "html.parser")
+        #find every item in the case
+        results = soup.find_all("div", class_='skin-box')
+        #loop through every item in the html collecting the name and value of the item
+        for val in results:
+            #go one step deaper in the CSS
+            tmp = val.find("div", class_='skin-box-header')
+            #create a string version of our CSS
+            strTmp = str(tmp)
+            #get the start of the weapon rareity
+            first = strTmp.find("\"")
+            #get the end of the weapon rareity
+            last = strTmp.find("\"", first + 1)
+            #get the weapon rareity adding 17 to the front and removing the 7 at the end getting
+            #the name of the rarity
+            value = strTmp[first + 17:last - 7]
+            #get the text in our div this is in the form [weapon name | skin name]
+            name = tmp.text
+            #add to our list this will change
+            finalList.append([value, name])
 
-        results = soup.find_all(type="text/javascript")
 
-        start = results[-1].text.find("var g_rgAssets")
-        end = results[-1].text.find(";", start)
-        test = json.loads(results[-1].text[start + 17:end])
-        key = list(test['730']['2'].keys())[0]
-        print(test['730']['2'][key]['descriptions'])
+        
 
 if __name__ == "__main__":
-    caseList =  ["CS:GO Weapon Case", 
+    caseList =  ["CS:GO-Weapon-Case", 
                  "eSports 2013 Case",  
                  "Operation Bravo Case", 
                  "CS:GO Weapon Case 2", 
