@@ -1,6 +1,7 @@
 import requests
 import time
 from bs4 import BeautifulSoup
+import pickle
 
 '''
 Initialization script this collects data for every single weapon case in the game
@@ -11,6 +12,7 @@ def main():
     finalList = list()
     #iterate through every case in the game
     for val in caseList:
+        finalList.append(val)
         #collect our url
         URL = "https://www.csgodatabase.com/cases/" + val
         #store which case we are int
@@ -40,6 +42,8 @@ def main():
             name = tmp.text
             #add to our list this will change
             finalList.append([value, name])
+    with open('temp.pkl', 'wb') as f:
+        pickle.dump(finalList, f)
 
 
         
