@@ -7,11 +7,6 @@
   --ui-shadow-border: 1px solid rgba(0, 0, 0, 0.14);
 }
 
-.WelcomeView {
-  background: url("csgo-market.jpg") left bottom;
-  background-size: cover;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -47,7 +42,7 @@ ul.caseUL {
 
 li {
   display: inline-grid;
-  background-color: purple;
+  background-color: cornflowerblue;
   color: white;
   padding: 10px;
   margin: 2px;
@@ -55,6 +50,7 @@ li {
   height: 50px;
   align-items: center;
   border-radius: 5px;
+  text-align: center;
 }
 
 .View {
@@ -85,7 +81,7 @@ li {
   border-radius: 5px;
 
   overflow: hidden;
-  background: darkgrey;
+  background: cornflowerblue;
   padding: 15px;
 
   font-family: "Share Tech Mono", monospace;
@@ -174,4 +170,16 @@ li {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+/* all individual case page views */
+
+.WelcomeView {
+  background: url("csgo-market.jpg") left bottom;
+  background-size: cover;
+}
+
+.CsgoWeaponCaseView {
+  background: url("csgo-weapon-case.jpg") left bottom;
+  background-size: cover;
 }
