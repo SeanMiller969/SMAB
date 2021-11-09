@@ -53,6 +53,10 @@ li {
   text-align: center;
 }
 
+li a:hover {
+  background: #ddd;
+}
+
 .View {
   flex: 1;
   display: flex;
