@@ -40,6 +40,6 @@ file = open("fuck.txt", "w+")
 for i in cases:
 	c = i.replace(' ', '-')
 	c = c.replace(':', '')
-	string = "app.get(\"/%s\", (req, res) => {\n\tres.render(\"%s\", { title: \"%s\" });\n});\n\n" % (c.lower(), c.lower(), i)
-	#file.write(string)
+	print(i)
+	print(c)
 file.close()
