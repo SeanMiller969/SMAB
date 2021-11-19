@@ -8,7 +8,7 @@
 #Minimal Wear— 24.68%
 #Factory New— 14.71%
 
-#stattrack - 10%
+#stattrack - 10% of the given given at a 2 percent rate 
 
 #Blue- 79.92%
 #Purple- 15.98%
@@ -16,7 +16,7 @@
 #Red- 0.64%
 #Yellow- 0.26%
 
-#knife-rarity(Global?)
+#stattrack - 10% of the given items
 
 
 class Case:

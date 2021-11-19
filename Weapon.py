@@ -27,7 +27,10 @@ class Weapon:
 		quality_value_list = [.1471, .2468, .4118, .0792, .0993]
 		#for i in range(5):
 		#	temp += sell_price[i] * quality_value_list[i]
-		self.estimated_value = float(sell_price) * quality_value_list[condition]
+		if not self.stattrack:
+			self.estimated_value = float(sell_price) * quality_value_list[condition]
+		else:
+			self.estimated_value = (float(sell_price) * quality_value_list[condition]) * .1
 
 	#changes the odds of getting the weapon.
 	def stat_track(self, stattrack):
@@ -36,6 +39,11 @@ class Weapon:
 		else:
 			self.stattrack = False
 
+
+	'''
+	THIS CODE SHOULD NOT BE USED ANYMORE
+	WITH THE NEW MONGO STRUCTURE
+	'''
 	#Example:
 	#This will be updated with how we want the data.
 	#"Name","skin","condition","buy_prive","sell_price", "estimated_value"

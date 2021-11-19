@@ -3,6 +3,15 @@ from urllib.request import urlopen
 from Weapon import Weapon
 import ssl
 
+
+'''
+Well-Worn—7.92 percent
+Battle-Scarred—9.93 percent
+Field-Tested—43.18 percent
+Minimal Wear—24.68 percent
+Factory New—14.71 percent
+'''
+
 def get_json(url):
     ###This allows the program to run on a nac.
     ssl._create_default_https_context = ssl._create_unverified_context
