@@ -2,20 +2,19 @@
 # call it a Smababase
 from pymongo import MongoClient
 import pickle
+import sys
 
-#client = pymongo.MongoClient("mongodb+srv://thieljohn:SMABword1234@cluster0.ehgdd.mongodb.net/SMAB?retryWrites=true&w=majority")
-client = MongoClient('mongodb://localhost:2701')
+client = MongoClient("mongodb+srv://thieljohn:SMABword@cluster0.ehgdd.mongodb.net/SMAB?retryWrites=true&w=majority")
 db = client.SMAB
 
+counter = 0
 txt_file = pickle.load(open('setup/temp.pkl', 'rb'))
 for i in txt_file:
-    #print(i)
-    if type(i) == str:
+    print(i)
+    if type(i) is str:
         case_col = db[i]
     else:
-        gun = i[1].split()[0]
-        skin = i[1].split("|")[1]
-        #print(i[1].split("|"))
+        gun,skin = i[1].split("|")
         rarity = i[0]
         temp_dict = {
             'Gun' : gun,
@@ -23,11 +22,7 @@ for i in txt_file:
             'Rarity' : rarity
         }
         case_col.insert_one(temp_dict)
-        print(temp_dict)
+        print(type(temp_dict))
+    counter+= 1
 
 print("Done!")
-
-    
-    
-    
-
