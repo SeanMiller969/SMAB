@@ -2,13 +2,18 @@
 A steam market analysis bot
 
 
-This project is an application to scrape the Steam Marketplace for prices of items in CS:GO cases. It then stores this information in a Mongo Database, which holds each case and the weapons inside. To run this application on your own machine, use the following steps. 
+This project is an application to scrape the Steam Marketplace for prices of items in CS:GO cases. The front end is buiilt with pug, and the backend is done using Mongo. Python and JavaScript are the languages used in this project. To run this application on your own machine, use the following steps. 
 
 1. Download all the files in the project, or just clone the repository. 
-2. Install pymongo, using the command <pip install pymongo>
-3. 
-
-
-This project consists of a text interface designed to scrape the Steam Marketplace and obtain an array of JSONs. To compile and run the program, install all supplementary python files along with main.py and run main.py in an ide or compile it. It takes in a specific case and the link to the Steam Marketplace file and based off of the individual link collects JSON data. Moving forward, code will be added to read through the JSON and find numbers based off of it to crunch. An example currently exists based off of the Gamma Case, it is currently runnable.
-When run, the program returns the JSON from the Gamma Case. Further cases or a case selector have been added, just uncomment the selection part. It now supports all different collections in the dictionary file. All of these are functional. The json is converted into a txt file, and parsed. The printing of the json is now optimized and prints most of the data found. It shows prices of the first page of listings. The function returns a list of classes. These classes are then built in the mainfile. It then outputs the data in a .csv.
-
+2. Install pymongo, using the command pip install pymongo
+3. To simply run and view the program, run main.py. Now you have SMAB!
+4. IF you want to get the information in your own database, you will need to edit the DBinit.py and URLtraversal2.py. First you will need your own MongoDB database. To get this, go to mongo.com and create an account. Once you have done this, you will need to create a database on their. There is a tutorial on the website. Once you have a database made, you will need to find this line of code in DBinit.py and URLtraversa2.py. It is near the top for both programs.
+client = MongoClient("mongodb+srv://thieljohn:SMABword@cluster0.ehgdd.mongodb.net/SMAB?retryWrites=true&w=majority")
+5. You will want to change the thieljohn:SMABword to be your own databases user's username and password in the following format. <username>:<password>. If this does not, try using the defalt connection string provided when you click the connect button on the website. 
+6. Before running DBinit.py, make sure the temp.pkl file is either in the sae location as DBinit.py, or in a file called setup which is located in the same location. If temp.pkl is in the same location and not in the setup folder, change this line of code in DBinit.py 
+  txt_file = pickle.load(open('setup/temp.pkl', 'rb'))
+  to txt_file = pickle.load(open('temp.pkl', 'rb')).
+7. Now you can run DBinit.py. If no errors are thrown, then you have initialized your database.
+8. Now, you can run the URLtraversal2.py program to update the prices of every item in your database to their current buy and sell price on the steam marketplace.
+    We are in the progress of automating this update. 
+\
