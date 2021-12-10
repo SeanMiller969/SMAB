@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from search_id import *
 from url_traversal import get_json
-import csv
 import time
 from Weapon import *
 
@@ -14,7 +13,7 @@ def main():
     #cases have an id tag associated with them in the url
     #tag_set_community_13 <-- this is that tag number
     #this will be hard coded and will be updated accordinginly
-    url = find_case("The Gamma Collection")
+    url = find_case(input())
     if(url == "ERROR"):
         print("Case not found!")
     print(url)
@@ -26,7 +25,8 @@ def main():
         JSON.append(get_json(url[:len(url) - 11] + str(i) + url[len(url) - 10:]))
         time.sleep(3)
         i += 1
-    #Pipe out to a csv
+    #THIS IS DEPRECIATED CODE AND NEEDS TO BE UPDATED TO UPDATE THE MONGO DB SERVER
+    '''
     f = open("EV.csv", "w+")
     f.close()
     print(len(JSON))
@@ -38,6 +38,7 @@ def main():
             for i in j:
                 csv_writer.writerow(i.CSVstructure())
         csv_writer.writerow(["=Sum(F3:F" + str((NumberOfPages * 2 * 10) + 1) + ")"])
+    '''
 
 if __name__ == "__main__":
     main()
