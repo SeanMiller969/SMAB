@@ -43,6 +43,8 @@ def main():
             #add to our list this will change
             finalList.append([value, name])
     with open('temp.pkl', 'wb') as f:
+        #DATA LOOKS LIKE THIS
+        #["Case Name", [GUN TYPE,GUN NAME], [GUN TYPE,GUN NAME], [GUN TYPE,GUN NAME]]
         pickle.dump(finalList, f)
 
 
