@@ -5,7 +5,7 @@ import pymongo
 import ssl
 
 
-client = pymongo.MongoClient("mongodb+srv://thieljohn:SMABword123@cluster0.ehgdd.mongodb.net/SMAB?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://thieljohn:SMABword@cluster0.ehgdd.mongodb.net/SMAB?retryWrites=true&w=majority")
 db = client.SMAB
 weapon_col = db.Weapon
 
@@ -21,9 +21,9 @@ def makeDoc(string_data, i):
     skin = skin_condition[0].strip()
     condition = skin_condition[1].replace(')', '')
     '''Should be updating prices at each weapon type not adding a new entry!!!!'''
-    weapon = {'gun' : weapon,
-        'skin' : skin,
-        'condition' : condition,
+    weapon = {'gun' : weapon.strip(),
+        'skin' : skin.strip(),
+        'condition' : condition.strip(),
         'buy_at' : buy_price,
         'sell_at' : sell_price,
     }

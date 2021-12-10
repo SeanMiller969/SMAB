@@ -17,12 +17,12 @@ for i in txt_file:
         gun,skin = i[1].split("|")
         rarity = i[0]
         temp_dict = {
-            'Gun' : gun,
-            'Skin' : skin,
-            'Rarity' : rarity
+            'Gun' : gun.strip(),
+            'Skin' : skin.strip(),
+            'Rarity' : rarity.strip()
         }
         case_col.insert_one(temp_dict)
-        print(type(temp_dict))
+        #print(type(temp_dict))
     counter+= 1
 
 print("Done!")

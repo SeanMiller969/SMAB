@@ -36,6 +36,10 @@ class Weapon:
 		else:
 			self.stattrack = False
 
+	def updatePrice(self, new_buy, new_sell):
+		self.buy_price = new_buy
+		self.sell_price = new_sell
+
 	#Example:
 	#This will be updated with how we want the data.
 	#"Name","skin","condition","buy_prive","sell_price", "estimated_value"

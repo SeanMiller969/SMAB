@@ -18,6 +18,8 @@
 
 #knife-rarity(Global?)
 
+import Weapon
+
 
 class Case:
 
@@ -35,8 +37,8 @@ class Case:
 
 	def setValue(self):
 		temp = 0
-		for w in weapons:
+		for w in self.weapons:
 			temp += w.rarity * w.estimated_value
-		temp += knife_value * knife_rarity
+		temp += self.knife_value * 0.002 #Knife chance = .2%
 
 		self.estimated_value = temp
